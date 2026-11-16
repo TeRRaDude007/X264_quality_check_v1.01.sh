@@ -159,7 +159,7 @@ main() {
             -maxdepth 1 \
             -type d \
             ! -path "$DEST_DIR" \
-            ! -name '[NUKED]-*' \
+            ! -name '\[NUKED\]-*' \
             -print0
     )
 
